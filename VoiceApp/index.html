@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>VoiceApp</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <section id="app">
+            <div id="header">
+                <h2>Voicely</h2>
+            </div>
+            <div id="subtitle">
+                <h3>Select a voice</h3>
+            </div>
+            <select name="voice" id="voice">
+                <option value="" placeholder="Select a voice">Select a voice</option>
+            </select>
+
+            <div id="gen">
+                <!-- <label for="rate">Rate:</label>
+                <input type="range" name="range" min="0" max="3" step="0.1">
+
+                <label for="pitch">Speed:</label>
+                <input type="range" name="speed" min="0" max="2" step="0.1"> -->
+
+                <textarea name="text" rows="5" cols="15" placeholder="Write what you want to say."></textarea>
+                <button id="stop">Stop</button>
+                <button id="speak">Say</button>
+            </div>
+        </section>
+    </body>
+    <script src="scripts.js"></script>
+</html>
